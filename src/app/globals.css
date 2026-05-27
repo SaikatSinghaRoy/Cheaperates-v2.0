@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #607afb;
+    --bg-light: #f5f6f8;
+    
+    --bg-dark: #0f1323;
+    --radius: 0.125rem;
+    --radius-lg: 0.25rem;
+    --radius-xl: 0.5rem;
+    --radius-full: 0.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-light: #f5f6f8;
+        --bg-dark: #0f1323;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
