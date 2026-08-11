@@ -26,8 +26,8 @@ export default function DealsPage() {
 
     return (
         <section className="min-h-screen bg-(--bg-dark) pt-36 pb-20 relative overflow-hidden">
-            <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[50%] bg-(--primary)/20 blur-[150px] rounded-full" />
-            <div className="absolute -bottom-[10%] -left-[10%] w-[50%] h-[50%] bg-(--primary)/15 blur-[150px] rounded-full" />
+            <div className="absolute top-[-20%] right-[-10%] w-[50%] h-[50%] bg-(--primary)/20 blur-[150px] rounded-full" />
+            <div className="absolute bottom-[-10%] left-[-10%] w-[50%] h-[50%] bg-(--primary)/15 blur-[150px] rounded-full" />
 
             <div className="container mx-auto px-6 relative">
                 {/* Heading */}

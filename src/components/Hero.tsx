@@ -116,6 +116,7 @@ const Hero = ({ scrollToTargetRef }: Props) => {
                                 fill
                                 sizes='(max-width: 450px)'
                                 className="object-contain rounded-xl"
+                                loading="eager"
                             />
                         </motion.div>
                     </motion.div>
